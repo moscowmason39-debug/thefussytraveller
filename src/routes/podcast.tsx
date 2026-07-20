@@ -34,8 +34,8 @@ function PodcastPage() {
             </div>
           </div>
 
-          <span className="inline-block rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 text-xs uppercase tracking-[0.3em] text-white">
-            The Podcast
+          <span className="inline-block rounded-full bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 text-xs tracking-wider text-white">
+            New podcast coming soon on Spotify
           </span>
           <h1 className="mt-6 font-display text-6xl md:text-8xl text-white leading-[0.95]">
             Coming soon
