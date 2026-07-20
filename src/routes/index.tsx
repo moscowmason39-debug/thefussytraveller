@@ -10,6 +10,19 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const [tagline, setTagline] = useState(0);
+  const taglines = [
+    "New podcast coming soon on Spotify",
+    "The Fussy Traveller",
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTagline((i) => (i + 1) % taglines.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="px-3 md:px-5">
       {/* Hero */}
