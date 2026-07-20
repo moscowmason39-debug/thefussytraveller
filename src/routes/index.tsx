@@ -37,8 +37,8 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/60" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
           <Reveal>
-            <span className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur-md px-4 py-1.5 text-xs uppercase tracking-wider text-white border border-white/20 text-center">
-              <Sparkles className="w-3.5 h-3.5 flex-shrink-0" />
+            <span className="inline-flex items-center gap-3 rounded-full bg-spotify/95 backdrop-blur-md px-7 py-3 text-sm md:text-base uppercase tracking-wider text-white border border-white/20 text-center shadow-lg shadow-spotify/20">
+              <Sparkles className="w-5 h-5 flex-shrink-0" />
               <span key={tagline} className="animate-fade-in">
                 {taglines[tagline]}
               </span>
