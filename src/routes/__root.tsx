@@ -58,6 +58,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "google-site-verification", content: "google2fa709c038cd3a74" },
       { title: "The Fussy Traveller — Feel Fabulous as you Travel in Style" },
       { name: "description", content: "Honest luxury travel reviews, curated itineraries, and inspiration for travellers who want the very best." },
       { property: "og:title", content: "The Fussy Traveller — Feel Fabulous as you Travel in Style" },
